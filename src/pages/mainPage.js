@@ -159,7 +159,7 @@ useEffect(() => {
           </select>
           </div>
           <div className="parameter-notice-container">
-          <label className="parameter-notice-label" >Цвет текста</label>
+          <label className="parameter-notice-label" >Начертание текста</label>
           <select className="parameter-notice-select" value={weightText} onChange={(e)=>setWeightText(e.target.value)}>
             <option defaultValue value="400">400</option>
             <option value="100">100</option>
